@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM EXAMPLE</title>
+</head>
+<body>
+    <h1 id="title">JAVASCRIPT DOM </h1>
+    <button id="changeText">UBAH TEXT</button>
+    <script>
+        //melakukan akses elemen DOM 
+        const titleElement = document.getElementById("title");
+        const button = document.getElementById("changeText");
+
+        button.addEventListener("click", ()=>{
+                titleElement.textContent = ("Hello DOM")
+        }
+        );
+
+    </script>
+</body>
+</html>
